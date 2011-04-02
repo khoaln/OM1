@@ -1,0 +1,28 @@
+Apr 01 16:48:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 01 16:48:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 01 16:48:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 01 16:48:16 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 01 16:48:16 symfony [info] {sfPHPView} Render "/home/khoaln/Dropbox/Projects/OM_1/web/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Apr 01 16:48:16 symfony [info] {sfPHPView} Decorate content with "/home/khoaln/Dropbox/Projects/OM_1/web/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 01 16:48:16 symfony [info] {sfPHPView} Render "/home/khoaln/Dropbox/Projects/OM_1/web/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 01 16:48:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 01 16:48:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 01 16:48:16 symfony [info] {sfWebDebugLogger} Configuration 126.27 ms (9)
+Apr 01 16:48:16 symfony [info] {sfWebDebugLogger} Factories 79.05 ms (1)
+Apr 01 16:48:16 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+Apr 01 16:48:16 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 13.13 ms (1)
+Apr 01 16:48:16 symfony [info] {sfWebResponse} Send content (28829 o)
+Apr 01 16:51:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 01 16:51:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 01 16:51:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 01 16:51:56 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 01 16:51:56 symfony [info] {sfPHPView} Render "/home/khoaln/Dropbox/Projects/OM_1/web/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Apr 01 16:51:56 symfony [info] {sfPHPView} Decorate content with "/home/khoaln/Dropbox/Projects/OM_1/web/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 01 16:51:56 symfony [info] {sfPHPView} Render "/home/khoaln/Dropbox/Projects/OM_1/web/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 01 16:51:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 01 16:51:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 01 16:51:56 symfony [info] {sfWebDebugLogger} Configuration 0.80 ms (9)
+Apr 01 16:51:56 symfony [info] {sfWebDebugLogger} Factories 69.45 ms (1)
+Apr 01 16:51:56 symfony [info] {sfWebDebugLogger} Action "default/index" 0.12 ms (1)
+Apr 01 16:51:56 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 25.98 ms (1)
+Apr 01 16:51:56 symfony [info] {sfWebResponse} Send content (28859 o)
