@@ -26,3 +26,39 @@ Apr 01 16:51:56 symfony [info] {sfWebDebugLogger} Factories 69.45 ms (1)
 Apr 01 16:51:56 symfony [info] {sfWebDebugLogger} Action "default/index" 0.12 ms (1)
 Apr 01 16:51:56 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 25.98 ms (1)
 Apr 01 16:51:56 symfony [info] {sfWebResponse} Send content (28859 o)
+Apr 09 14:38:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:39:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:39:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:39:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:39:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:39:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:41:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:42:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:42:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:42:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 09 14:42:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 09 14:42:31 symfony [info] {upplanActions} Call "upplanActions->executeIndex()"
+Apr 09 14:42:31 symfony [info] {sfPHPView} Render "/var/www/OM/OM1/web/apps/frontend/modules/upPlan/templates/indexSuccess.php"
+Apr 09 14:42:31 symfony [info] {sfPHPView} Decorate content with "/var/www/OM/OM1/web/apps/frontend/templates/layout.php"
+Apr 09 14:42:31 symfony [info] {sfPHPView} Render "/var/www/OM/OM1/web/apps/frontend/templates/layout.php"
+Apr 09 14:42:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 09 14:42:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 09 14:42:31 symfony [info] {sfWebDebugLogger} Configuration 91.04 ms (9)
+Apr 09 14:42:31 symfony [info] {sfWebDebugLogger} Factories 60.59 ms (1)
+Apr 09 14:42:31 symfony [info] {sfWebDebugLogger} Action "upPlan/index" 0.08 ms (1)
+Apr 09 14:42:31 symfony [info] {sfWebDebugLogger} View "Success" for "upPlan/index" 33.81 ms (1)
+Apr 09 14:42:31 symfony [err] {sfWebDebugLogger}  Error at /var/www/OM/OM1/web/lib/vendor/symfony/lib/debug/sfDebug.class.php on line 157 (Argument 1 passed to sfDebug::userAsArray() must be an instance of sfUser, instance of myUser given, called in /var/www/OM/OM1/web/lib/vendor/symfony/lib/debug/sfWebDebugPanelConfig.class.php on line 55 and defined)
+Apr 09 14:43:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'upPlan',  'action' => 'index',)
+Apr 09 14:43:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 09 14:43:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 09 14:43:31 symfony [info] {upplanActions} Call "upplanActions->executeIndex()"
+Apr 09 14:43:31 symfony [info] {sfPHPView} Render "/var/www/OM/OM1/web/apps/frontend/modules/upPlan/templates/indexSuccess.php"
+Apr 09 14:43:31 symfony [info] {sfPHPView} Decorate content with "/var/www/OM/OM1/web/apps/frontend/templates/layout.php"
+Apr 09 14:43:31 symfony [info] {sfPHPView} Render "/var/www/OM/OM1/web/apps/frontend/templates/layout.php"
+Apr 09 14:43:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 09 14:43:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 09 14:43:31 symfony [info] {sfWebDebugLogger} Configuration 0.81 ms (9)
+Apr 09 14:43:31 symfony [info] {sfWebDebugLogger} Factories 42.40 ms (1)
+Apr 09 14:43:31 symfony [info] {sfWebDebugLogger} Action "upPlan/index" 0.08 ms (1)
+Apr 09 14:43:31 symfony [info] {sfWebDebugLogger} View "Success" for "upPlan/index" 9.33 ms (1)
+Apr 09 14:43:31 symfony [info] {sfWebResponse} Send content (26306 o)
